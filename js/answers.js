@@ -1,0 +1,46 @@
+const wrongAnwsers = [
+    'Schade, das war nicht korrekt. Die richtige Antwort lautet <b>##SHELF##</b>. Probiere es gleich noch einmal! 😊',
+    'Leider daneben! Die korrekte Antwort wäre <b>##SHELF##</b> gewesen. Viel Erfolg beim nächsten Versuch! 👍',
+    'Das war leider nicht richtig. Richtig gewesen wäre <b>##SHELF##</b>. Kopf hoch, das nächste Mal klappt es besser! 🌟',
+    'Fast getroffen, aber leider nicht ganz. Die richtige Antwort ist <b>##SHELF##</b>. Weiter so, beim nächsten Mal hast du es! 🎯',
+    'Nicht ganz! Die richtige Antwort ist <b>##SHELF##</b>. Versuche es noch einmal! 🔍',
+    'Autsch, das war leider falsch. Die korrekte Antwort ist <b>##SHELF##</b>. Lass dich nicht entmutigen! 🙌',
+    'Oh, knapp vorbei! Die richtige Antwort wäre <b>##SHELF##</b> gewesen. Du bekommst noch eine Chance! 🍀',
+    'Leider nein, die richtige Antwort ist <b>##SHELF##</b>. Bleib dran, du schaffst das! 💪',
+    'Das war ein guter Versuch, aber leider falsch. Die richtige Antwort ist <b>##SHELF##</b>. Versuche es erneut! ⏳',
+    'Hoppla, das war nicht die richtige Antwort. Es hätte <b>##SHELF##</b> sein sollen. Viel Glück beim nächsten Mal! 🌈',
+    'Falsche Antwort! Die richtige Antwort ist <b>##SHELF##</b>. Nicht aufgeben, weiter geht’s! ✨',
+    'Das war leider ein Missverständnis. Die richtige Antwort wäre <b>##SHELF##</b>. Du schaffst es beim nächsten Mal! 🌟',
+    'Leider falsch. Merke dir, dass die richtige Antwort <b>##SHELF##</b> lautet. Auf zum nächsten Versuch! 🔥',
+    'Oh nein, das war nicht korrekt. Die richtige Antwort ist <b>##SHELF##</b>. Du schaffst das, weitermachen! 💫',
+    'Fehlgeschlagen! Die korrekte Antwort wäre <b>##SHELF##</b> gewesen. Versuche es nochmal, du kannst es besser! ⚡',
+    'Nicht richtig, leider. Die korrekte Antwort ist <b>##SHELF##</b>. Gib nicht auf! 🌟',
+    'Das war nicht ganz richtig. Die gesuchte Antwort ist <b>##SHELF##</b>. Noch ein Versuch! 🔄',
+    'Leider falsch. Die richtige Antwort ist <b>##SHELF##</b>. Nicht entmutigen lassen, probiere es noch einmal! 🎈',
+    'Das war leider nicht die richtige Antwort. Du hättest <b>##SHELF##</b> wählen sollen. Bleib dran! 🚀',
+    'Ups, das war ein Fehler. Die richtige Antwort ist <b>##SHELF##</b>. Bleib dran und versuche es gleich nochmal! 💪'
+];
+
+
+const correctAnswers = [
+    "Bravo! ##SHELF## ist genau richtig. Mach weiter so! 🌟",
+    "Richtig! ##SHELF## ist korrekt. Hervorragend! 🎉",
+    "Genau! ##SHELF## ist der richtige Ort. Perfekt! 👍",
+    "Super, das stimmt! ##SHELF## ist richtig. Weiter so! 💪",
+    "Volltreffer! ##SHELF## ist absolut korrekt. Großartig! 🥳",
+    "Klasse! ##SHELF## ist die richtige Antwort. Fantastisch! 🌟",
+    "Ausgezeichnet! ##SHELF## ist richtig. Du bist super! 🎉",
+    "Ja, richtig! ##SHELF## ist der richtige Ort. Du machst das toll! 👏",
+    "Richtig geraten! ##SHELF## ist korrekt. Bleib dran! 🙌",
+    "Perfekt! ##SHELF## ist genau das, was wir gesucht haben. Klasse! 🎊",
+    "Stimmt genau! ##SHELF## ist die Antwort. Sehr gut gemacht! 🌈",
+    "Absolut richtig! ##SHELF## ist korrekt. Du bist auf dem richtigen Weg! 🚀",
+    "Treffsicher! ##SHELF## ist genau richtig. Fantastische Leistung! 🎯",
+    "Ja! ##SHELF## ist der richtige Ort. Das hast du gut gemacht! 👌",
+    "Richtig! ##SHELF## ist genau das, was wir brauchten. Super! 💯",
+    "Gut gemacht! ##SHELF## ist die korrekte Antwort. Wunderbar! 🎉",
+    "Exzellent! ##SHELF## ist genau richtig. Was für ein Erfolg! 🌟",
+    "Das ist korrekt! ##SHELF## ist die Antwort. Toll gemacht! 🎈",
+    "Richtig! ##SHELF## war genau der richtige Ort. Fantastisch! 🎆",
+    "Ja, genau! ##SHELF## ist korrekt. Bleib so gut drauf! 🌟"
+];
